@@ -1,9 +1,9 @@
-package com.furkanuyanik.springdemo.repository;
+package com.ttgint.customer.repository;
 
-import com.furkanuyanik.springdemo.model.Customer;
-import org.springframework.data.repository.PagingAndSortingRepository;
+import com.ttgint.customer.model.Customer;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CustomerRepository extends PagingAndSortingRepository<Customer, Long> {
+public interface CustomerRepository extends CrudRepository<Customer, Long> {
 }
