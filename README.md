@@ -41,3 +41,5 @@ This project is useful for starting to Spring Framework.
             spring.datasource.username= USER_NAME
             spring.datasource.password= PSW
             spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+            
+5. Open CMD and run 'mvnw spring-boot:run' in project files
