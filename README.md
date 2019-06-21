@@ -17,16 +17,16 @@ This project is useful for starting to Spring Framework.
 
 # SET CONFIGURATIONS #
 
+1. Open CMD and run 'mvnw spring-boot:run' in project files
 1. Open 'pom.xml' and insert to code
+
         <dependency>
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc8</artifactId>
             <version>12.2.0.1</version>
         </dependency>
-    
-2. Create a directory named 'lib' in src
-3. Insert ojdbc8.jar to 'lib' directory
-4. Open 'application.properties' and insert to code
+        
+2. Open 'application.properties' and insert to code
 
             # spring
             spring.devtools.restart.poll-interval=4000
@@ -40,6 +40,7 @@ This project is useful for starting to Spring Framework.
             spring.datasource.url= jdbc:oracle:thin:@localhost:1521/furkan.project.com
             spring.datasource.username= USER_NAME
             spring.datasource.password= PSW
-            spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+            spring.datasource.driverClassName=oracle.jdbc.OracleDriver
             
-5. Open CMD and run 'mvnw spring-boot:run' in project files
+3. Create a directory named 'lib' in src
+4. Insert ojdbc8.jar to 'lib' directory
