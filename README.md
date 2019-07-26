@@ -44,3 +44,4 @@ This project is useful for starting to Spring Framework.
             
 3. Create a directory named 'lib' in src
 4. Insert ojdbc8.jar to 'lib' directory
+5. Run to Terminal 'mvnw install:install-file -Dfile=src/lib/ojdbc8.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=12.2.0.1 -Dpackaging=jar'
